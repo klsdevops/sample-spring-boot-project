@@ -15,6 +15,6 @@ public class HelloWorldController {
 	
 	@RequestMapping(value = "/welcome")
 	public String print() {
-		return "Welcome to Spring boot app....";
+		return "Welcome to Spring boot app!";
 	}
 }
